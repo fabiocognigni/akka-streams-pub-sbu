@@ -18,4 +18,8 @@ class PubActor extends ActorPublisher[String] {
       }
     }
   }
+
+  def generateMessages: Seq[String] = {
+    
+  }
 }
